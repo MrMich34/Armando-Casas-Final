@@ -1,0 +1,1000 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue';
+}
+
+.titulo{
+  position: absolute;
+  width: 572px;
+  height: 300px;
+  left: 5%;
+  
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 123px;
+  line-height: 150px;
+  
+  color: #000000;
+}
+
+.logo_inicio{
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  left: 60%;
+}
+
+.container{
+  width: 90%;
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider{
+  background-color: white;
+  padding: 40px 0;
+}
+
+.slider__container{
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  align-items: center;
+  gap: 1em;
+}
+
+.slider__body{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  opacity: 0;
+  pointer-events: none;
+  display: grid;
+  background-color: white;
+  grid-template-columns: 1fr max-content;
+  transition: opacity 1.5s;
+}
+
+.slider__body--show{
+  opacity: 1;
+  pointer-events: unset;
+}
+
+.slider__texts{
+  max-width: 600px;
+
+}
+
+.subtitle{
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.slider__review{
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+.slider__img{
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.slider__arrow{
+  cursor: pointer;
+  width: 90%;
+}
+
+.slider__arrow:nth-of-type(2){
+  justify-self: end;
+}
+
+@media (max-width:768px){
+  .slider__body{
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content 1fg;
+  }
+
+  .slider__picture{
+    grid-row: 1/2;
+  }
+  .slider__img{
+    width: 210px;
+    height: 210px;
+  }
+}
+
+@media (max-width:425px){
+  .slider__container{
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content 1fg;
+  }
+
+  .slider__arrow{
+    width: 100%;
+  }
+  .slider__img{
+    width: 180x;
+    height: 180px;
+  }
+
+  .subtitle{
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  .slider__review{
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
+
+/* Qué es */
+
+.quees {
+  position: relative;
+  width: 400px;
+  height: 97px;
+  left: 5%;
+  top: 107px;
+  
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 140px;
+  font-size: 80px;
+  line-height: 97px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+}
+
+/* Armando Casas. */
+
+.armandocasas {
+  position: relative;
+  width: 632px;
+  height: 98px;
+  left: 5%;
+  top: 96px;
+  
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 98px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Flecha */
+
+.flecha {
+  position: relative;
+  width: 80px;
+  height: 413px;
+  left: 5%;
+  top: 120px;
+}
+
+.circulo{
+  position: absolute;
+  width: 96px;
+  height: 95px;
+  left: 200px;
+  top: 330px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.circulo2{
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  left: 211px;
+  top: 430px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.circulo3{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 223px;
+  top: 510px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.dignidad{
+  position: absolute;
+  width: 660px;
+  height: 530px;
+  left: 52%;
+  top: 0px;
+
+  border: 1px solid #000000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.texto_quees{
+  position: absolute;
+  width: 198px;
+  height: 111px;
+  left: 11%;
+  top: 580px;
+
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: left;
+
+  color: #000000;
+}
+
+.blanco1{
+  position: absolute;
+  width: 610px;
+  height: 111px;
+  left: 1000px;
+  top: 620px;
+
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  text-align:justify;
+  text-justify:inter-character;
+
+}
+
+.texto_quees2{
+  position: absolute;
+  width: 610px;
+  height: 111px;
+  left: 53.5%;
+  top: 580px;
+
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  text-align:justify;
+  text-justify:inter-character;
+
+  color: #000000;
+}
+
+
+/* white container */
+
+
+/* white container mycelio */
+.pcb2 {
+  position: relative;
+  width: 100%;
+  height: 750px;
+  background: #ffffff;
+}
+
+/* Ladrillos de Mycelio */
+
+.ladrillosmycelio {
+  position: relative;
+  width: 553px;
+  height: 186px;
+  left: 5%;
+  top: 70px;
+  
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 98px;
+  
+  color: #000000;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Ladrillos construidos a partir de micelio de hongos orellana, cuyo molde también cumpliría la labor de dotar al ladrillo de un diseño modular que solo sería posible dadas las propiedades del material a partir de micelio. */
+
+.textomycelio {
+  position: relative;
+  width: 794px;
+  height: 160px;
+  left: 5%;
+  top: 90px;
+  
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 27px;
+  line-height: 40px;
+  
+  color: #000000;
+}
+
+/* Botones de ver más */
+
+.button {
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #000000;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Helvetica Neue';
+  font-weight: 800;
+  font-size: large;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: absolute;
+  left: 5%;
+  top: 450px;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid orange;
+}
+
+.button1:hover {
+  background-color: orange;
+  color: white;
+}
+
+/* Hongos2 2 */
+
+.hongos2 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 30%;
+  height: 254px;
+  top: 100px;
+  left: 55%;
+
+
+  border: 1px solid #000000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* Hongos1 2 */
+
+.hongos1 {
+  box-sizing: border-box;
+
+  position: relative;
+  width: 40%;
+  height: 289px;
+  margin-left: 50%;
+  top: 237;
+
+  border: 1px solid #000000;
+}
+
+/* Planos de la casa */
+
+/* Rectanglulo pequeño planos de la casa */
+
+.recpeq {
+  position: relative;
+  width: 39px;
+  height: 146px;
+  left: 0px;
+  top: 0px;
+
+  background: #000000;
+}
+
+/* Planos de la casa */
+
+.planostit {
+  position: relative;
+  width: 785px;
+  height: 107px;
+  left: 10%;
+  top: -120px;
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 98px;
+  text-align: left;
+  
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Rectangulo grande planos de la casa*/
+
+.recgran {
+position: relative;
+width: 43%;
+height: 146px;
+left: 57%;
+background: #000000;
+top: -252px;
+}
+
+/* en 3D o en 2D */
+
+.planosdesc {
+  position: relative;
+  width: 600px;
+  height: 146px;
+  left: 59%;
+  top: -365px;
+
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 98px;
+  text-align: center;
+  
+  color: #ffffff;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Planos de la casa propuesta. Los planos son realizados mediante la herramienta digital Roomle, la cual permite crear un plano ya sea en 2D o 3D según las necesidades. */
+
+.planostext {
+  position: relative;
+  width: 685px;
+  height: 160px;
+  left: 40%;
+  top: -300px;
+  
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 33px;
+  line-height: 40px;
+  text-align: justify;
+
+  color: #000000;
+}
+
+.plano1{
+  position: relative;
+  width: 376px;
+  height: 334px;
+  left: 5%;
+  top: -550px;
+  border: 1px solid #000000;
+}
+
+.plano2{
+
+  position: relative;
+  width: 417px;
+  height: 391px;
+  top: -270px;
+  border: 1px solid #000000;
+}
+
+.button2 {
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #000000;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Helvetica Neue';
+  font-weight: 800;
+  font-size: large;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+  left: 10%;
+  top: -600px;
+}
+
+.button3 {
+  background-color: white;
+  color: black;
+  border: 2px solid orange;
+}
+
+.button3:hover {
+  background-color: orange;
+  color: white;
+}
+
+.recpeq2 {
+  position: relative;
+  width: 39px;
+  height: 146px;
+  left: 97%;
+  top: -252px;
+
+
+  background: #000000;
+}
+
+/* Planos de la casa */
+
+.planostit2 {
+  position: relative;
+  width: 50%;
+  height: 107px;
+  left: 3%;
+  top: -120px;
+  
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 98px;
+  text-align: left;
+  
+  color: white;
+}
+
+/* Rectangulo grande planos de la casa*/
+
+.recgran2 {
+position: relative;
+width: 43%;
+height: 146px;
+right: 2%;
+
+background: #000000;
+}
+
+/* en 3D o en 2D */
+
+.planosdesc2 {
+  position: relative;
+  width: 600px;
+  height: 146px;
+  left: 50%;
+  top: -370px;
+  
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 98px;
+  text-align: center;
+  
+  color: black;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.planostext2 {
+  position: relative;
+  width: 685px;
+  height: 240px;
+  left: 81px;
+  top: -350px;
+  
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 33px;
+  line-height: 40px;
+  
+  color: #000000;
+}
+
+.costos1{
+  position: relative;
+  width: 376px;
+  height: 500px;
+  left: 30%;
+  top: -400px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.costos2{
+  position: relative;
+  width: 417px;
+  height: 391px;
+  left: 30%;
+  top: -600px;
+}
+
+.button4 {
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #000000;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Helvetica Neue';
+  font-weight: 800;
+  font-size: large;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+  left: 15%;
+  top: -477px;
+}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid orange;
+}
+
+.button5:hover {
+  background-color: orange;
+  color: white;
+}
+
+
+.divs {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  background-image: url(assets/40_7.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.divs2 {
+  position: relative;
+  width: 100%;
+  height: 400px;
+
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/*  Nuestro Objetivos */
+
+.divs4{
+  position: relative;
+  width: 100%;
+  height: 1100px;
+  background-image: url(assets/40_7.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.rectangulo{
+  position: absolute;
+  width: 35%;
+  height: 22%;
+  left: 33%;
+  top: 200px;
+  border: 5px solid #000000;
+}
+
+.linea1{
+  position: absolute;
+  top: 325px;
+  width: 33%;
+  left: 0%;
+}
+
+.linea2{
+  position: absolute;
+  top: 325px;
+  width: 32%;
+  left: 68%;
+}
+
+.objetivos_texts1{
+  position: absolute;
+  font-size: 65px;
+  left: 43%;
+  top: 230px;
+}
+
+.objetivos_texts2{
+  position: absolute;
+  font-size: 80px;
+  left: 39%;
+  top: 320px;
+}
+
+.objetivo1{
+  position: absolute;
+  top: 824px;
+  left: 2%;
+}
+
+.parte1{
+  position: absolute;
+  width: 336px;
+  height: 85px;
+  left: 4%;
+  top: 700px;
+
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: #000000;
+}
+
+.parte2{
+  position: absolute;
+  width: 336px;
+  height: 85px;
+  left: 7%;
+  top: 750px;
+
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: white;
+}
+
+.objetivo2{
+  position: absolute;
+  width: 337px;
+  height: 372px;
+  left: 40%;
+  top: 728px;
+}
+
+.parte3{
+  position: relative;
+  width: 336px;
+  height: 85px;
+  left: 47%;
+  top: 600px;
+
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: #000000;
+}
+
+.parte4{
+  position: absolute;
+  width: 336px;
+  height: 85px;
+  left: 47%;
+  top: 660px;
+
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: white;
+}
+
+.objetivo3{
+  position: absolute;
+  width: 338px;
+  height: 427px;
+  left: 75%;
+  top: 673px;
+}
+
+.parte5{
+  position: absolute;
+  width: 336px;
+  height: 85px;
+  left: 79%;
+  top: 560px;
+
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: black;
+}
+
+.parte6{
+  position: absolute;
+  width: 336px;
+  height: 85px;
+  left: 80%;
+  top: 610px;
+
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: white;
+}
+
+.divs5{
+  position: relative;
+  width: 100%;
+  height: 1000px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.creada_por{
+  position: absolute;
+  width: 1512px;
+  height: 73px;
+  top: 200px;
+
+
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.correo{
+  position: absolute;
+  width: 1512px;
+  height: 73px;
+  top: 400px;
+
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  
+  color: #000000;
+}
+
+.telefono{
+  position: absolute;
+  width: 1512px;
+  height: 73px;
+  top: 500px;
+
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.logo{
+  position: absolute;
+  left: 120px;
+  top: 700px;
+}
+
+.instagram{
+  position: relative;
+  width: 350px;
+  top: 680px;
+  left: 2%;
+}
+
+.logo2{
+  position: absolute;
+  width: 300px;
+  top: 720px;
+  left: 75%;
+}
+
+.linea3{
+  position: relative;
+  width: 20%;
+  height: 0px;
+  top: 117px;
+  left: 0%;
+  
+  border: 1px solid #000000;
+}
+
+.linea4{
+  position: relative;
+  width: 20%;
+  height: 0px;
+  left: 79.9%;
+  top: 0px;
+  
+  border: 1px solid #000000;
+}
+
+.nuestro_nombre{
+  position: relative;
+  font-size: 85px;
+  left: 30%;
+  top: 50px;
+}
+
+.video{
+  position: relative;
+  top: 2500px;
+width: 100%;
+}
+
+.div-alargado{
+  height: 200px;
+}
+
+.pcb3{
+  height: 900px;
+}
+
+.pcb4{
+  height: 1000px;
+}
+
+.divs5{
+  position: relative;
+  width: 100%;
+}
+
+@media (min-width:1500px) {
+  .logo2{
+    left: 82%;
+  }
+  .creada_por{
+    left: 7%;
+  }
+  .correo{
+    left: 7%;
+  }
+  .telefono{
+    left: 7%;
+  }
+  .nuestro_nombre{
+    left: 35%;
+  }
+}

@@ -1,0 +1,675 @@
+
+.div_home {
+    top: 0px;
+    height: 158px;
+    width: 100%;
+    position: relative;
+    background-color: #FFA729;
+}
+.home {
+    position: absolute;
+    left: 30px;
+    top: -10px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: left;
+    
+    color: #000000;
+}   
+
+.div_imagen_principal {
+    display: block;
+    margin: 0px auto;
+    top: -1700px;
+    height: 814px;
+    width: auto;
+    position: relative;
+}
+
+.imagen_principal {
+    display: block;
+    margin: 0px auto;
+    width: 80%;
+    height: 100%;
+    position: relative; 
+    top: 150px;
+}
+
+.titulo {
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 109px;
+    line-height: 132px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: black;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subtitulo {
+    position: absolute;
+    width: 100%;
+    top: 300px;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+
+    color: blac;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.primer_rectangulo {
+    position: relative;
+    width: 540px;
+    height: 1713px;
+    left: 60.95%;
+    top: -2px;
+
+    background: #FFA729;
+}
+
+.descripcion {
+    position: absolute;
+    width: 100%;
+    top: 1200px;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.div_persona {
+    position: relative;
+    width: 690px;
+    height: 610px;
+    top: -1500px;
+    left: 7%;
+}
+
+.cargo {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 56px;
+    text-align: left;
+
+    color: #000000;
+}
+
+.nombre {
+    position: absolute;
+    width: 100%;
+    height: 24px;
+    left: 349px;
+    top: 50px;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.linea {
+    position: absolute;
+    width: 550px;
+    height: 0px;
+    left: 101.99px;
+    top: 115px;
+
+    border: 5px solid #000000;
+}
+
+.foto_persona {
+    position: absolute;
+    width: 374px;
+    height: auto;
+    left: 290px;
+    top: 160px;
+}
+
+.quote {
+    position: absolute;
+    width: 100%;
+    left: 80px;
+    top: 380px;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.segundo_rectangulo{
+    position: relative;
+    width: 100%;
+    height: 158px;
+    top: -1430px;
+    
+    background: #FFA729;
+}
+
+/* Morado */
+.div_nuestra_propuesta {
+    width: 100%;
+    height: 1183px;
+    top: -1440px;
+    position: relative;
+}
+
+.nuestra_propuesta {
+    position: absolute;
+    width: 100%;
+    top: -40px;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 78px;
+    line-height: 95px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* Gris */
+.div_dentro_nuestra_propuesta {
+    position: relative;
+    width: 85%;
+    height: 3070px;
+    top: 180px;
+    display: block;
+    margin: 0px auto;
+}
+
+.tercer_rectangulo {
+    position: absolute;
+    width: 394px;
+    height: 74px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFA729;
+}
+
+.cuarto_rectangulo {
+    position: absolute;
+    width: 74px;
+    height: 933px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFA729;
+}
+
+.quinto_rectangulo {
+    position: absolute;
+    width: 1018px;
+    height: 74px;
+    left: 0px;
+    top: 859px;
+
+    background: #FFA729;
+}
+
+.planos_1 {
+    position: absolute;
+    width: auto;
+    height: 345px;
+    left: 100px;
+    top: 100px;
+    
+    filter: drop-shadow(4px 0px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.planos_2 {
+    position: absolute;
+    width: auto;
+    height: 360px;
+    left: 100px;
+    top: 460px;
+
+    filter: drop-shadow(4px 0px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.texto_nuestra_propuesta {
+    position: absolute;
+    width: 60%;
+    height: auto;
+    top: 7%;
+    left: 35%;
+    
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: justify;
+    
+    color: #000000;
+}
+
+.linea_3 {
+    position: absolute;
+    width: 200px;
+    height: 0px;
+    right: 0px;
+    top: 20px;
+    
+    border: 7px solid #000000;
+}
+
+.linea_4 {
+    position: absolute;
+    width: 0px;
+    height: 3030px;
+    right: 0px;
+    top: 20px;
+    
+    border: 7px solid #000000;
+}
+
+.linea_5 {
+    position: absolute;
+    width: 200px;
+    height: 0px;
+    right: 0px;
+    bottom: 0px;
+    
+    border: 7px solid #000000;
+}
+
+/* Verde */
+.div_foto_area {
+    top: 1100px;
+    width: 50%;
+    height: 539px;
+    left: 0px;
+    position: relative;
+}
+
+.foto_area {
+    position: absolute;
+    width: 399px;
+    height: auto;
+    left: 0px;
+    top: 0px;
+}
+
+.sexto_rectangulo {
+    position: absolute;
+    width: 21px;
+    height: 77px;
+    left: 400px;
+    top: 0px;
+    
+    background: #FFA729;
+}
+
+.titulo_area {
+    position: absolute;
+    width: 390px;
+    left: 300px;
+    bottom: -130px;
+    
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 109px;
+    line-height: 133px;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.texto_area {
+    position: absolute;
+    width: 367px;
+    height: 60px;
+    left: 450px;
+    top: -30px;
+    
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+    
+    color: #000000;
+}
+
+/* Verde */
+.div_foto_altura {
+    top: 1200px;
+    width: 50%;
+    height: 539px;
+    left:45%;
+    position: relative;
+}
+
+.foto_altura {
+    position: absolute;
+    width: 399px;
+    height: auto;
+    right: 0px;
+    top: 0px;
+}
+
+.septimo_rectangulo {
+    position: absolute;
+    width: 21px;
+    height: 77px;
+    right: 399px;
+    top: 0px;
+    
+    background: #FFA729;
+}
+
+.titulo_altura {
+    position: absolute;
+    width: 390px;
+    right: 300px;
+    bottom: -130px;
+    
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 109px;
+    line-height: 133px;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.texto_altura {
+    position: absolute;
+    width: 301px;
+    height: 447px;
+    right: 450px;
+    top: -30px;
+    
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: right;
+    
+    color: #000000;
+}
+
+/* Verde */
+.div_foto_ventanas {
+    top: 1380px;
+    width: 80%;
+    height: 258px;
+    left: 0px;
+    position: relative;
+}
+
+.foto_ventanas {
+    position: absolute;
+    width: 700px;
+    height: auto;
+    left: 0px;
+    top: 0px;
+}
+
+.octavo_rectangulo {
+    position: absolute;
+    width: 21px;
+    height: 77px;
+    left: 700px;
+    top: 0px;
+    
+    background: #FFA729;
+}
+
+.titulo_ventanas {
+    position: absolute;
+    width: 390px;
+    left: 600px;
+    bottom: -130px;
+    
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 109px;
+    line-height: 133px;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.texto_ventanas {
+    position: absolute;
+    width: 380px;
+    height: 60px;
+    left: 750px;
+    top: -30px;
+    
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+    
+    color: #000000;
+}
+
+.norma_colombiana {
+    position: absolute;
+    width: 1208px;
+    height: 130px;
+    left: 69px;
+    bottom: 0px;
+    
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 119px;
+    line-height: 144px;
+    text-align: justify;
+    
+    color: #000000;
+}
+
+/* Verde */
+.div_recuerda {
+    top: 3300px;
+    width: 100%;
+    height: 1500px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.recuerda {
+    position: absolute;
+    width: 100%;
+    height: 149px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 119px;
+    line-height: 145px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.texto_recuerda {
+    position: absolute;
+    width: 100%;
+    height: 121px;
+    left: 0px;
+    top: 300px;
+    
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 52px;
+    line-height: 63px;
+    text-align: center;
+    
+    color: #000000;
+    
+}
+
+.foto_modular {
+    position: absolute;
+    width: auto;
+    height: 40%;
+    top: 500px;
+}
+
+/* Rosado */
+.div_bottom {
+    top: 2000px;
+    width: 100%;
+    height: 500px;
+    left: 0px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.linea_6 {
+    position: absolute;
+    width: 70%;
+    height: 0px;
+    top: 0px;
+    
+    border: 7px solid #000000;
+}
+
+.pagina_actual {
+    position: absolute;
+    width: 100%;
+    height: 61px;
+    top: 50px;
+    text-decoration: underline;
+    
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.ladrillos_de_micelio {
+    position: absolute;
+    width: 30%;
+    height: 139px;
+    left: 10%;
+    top: 150px;
+    
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: left;
+    
+    color: #000000;
+}
+
+.estudio_de_costos {
+    position: absolute;
+    width: 30%;
+    height: 139px;
+    right: 10%;
+    top: 150px;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: right;
+
+    color: #000000;
+}
+
+.linea_7 {
+    position: absolute;
+    width: 400px;
+    left: 0%;
+    top: 400px;
+    
+    border: 7px solid #000000;
+}
+
+.linea_8 {
+    position: absolute;
+    width: 400px;
+    right: 0%;
+    top: 400px;
+    
+    border: 7px solid #000000;
+}
+
+.titulo_abajo {
+    position: absolute;
+    width: 100%;
+    height: 61px;
+    top: 320px;
+    
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 61px;
+
+    text-align: center;
+    
+    color: #000000;   
+}
